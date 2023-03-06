@@ -11,7 +11,7 @@ defineComponent({
 
 <template>
 <div>
-  <div class="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8 py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+  <div class="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8 px-4 sm:px-6 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
     <div>
       <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Technical Specifications</h2>
       <p class="mt-4 text-gray-300">The walnut wood card tray is precision milled to perfectly fit a stack of Focus cards. The powder coated steel divider separates active cards from new ones, or can be used to archive important task lists.</p>

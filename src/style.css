@@ -13,6 +13,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box
 }
 
 html {
@@ -25,6 +27,7 @@ body {
 
 html, body {
   height: 100%;
+  overflow: hidden;
 }
 
 #app {

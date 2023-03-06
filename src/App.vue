@@ -4,23 +4,11 @@ import navBar from './components/shared/navbar.vue'
 import footerView from './components/shared/footer.vue'
 </script>
 
-<template class="w-full">
+<template class="w-full h-full overflow-hidden absolute">
   <nav-bar></nav-bar>
-  <RouterView class="w-full" />
-  <footer-view></footer-view>
+  <RouterView class="w-full h-full pt-12 pb-36 overflow-x-scroll items-start flex" />
+  <footer-view class="hidden sm:block"></footer-view>
 </template>
 
 <style>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
 </style>
